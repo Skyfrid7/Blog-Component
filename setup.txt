@@ -1,0 +1,6 @@
+composer require laravel-frontend-presets/tailwindcss --dev
+php artisan ui tailwindcss --auth
+npm remove laravel-mix
+npm install laravel-mix --save-dev
+npm install cross-env --save-dev
+npm run watch
