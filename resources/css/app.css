@@ -12,3 +12,6 @@
      background-size: cover;
      height: 600px;
 }
+.limited-img {
+     max-width: 570px;
+}

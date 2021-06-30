@@ -8,7 +8,7 @@
                          Tu veux devenir un développeur ?
                     </h1>
                     <a href="/blog" class="text-center bg-gray-50 text-gray-700 py-2 px-4 font-bold text-xl uppercase">
-                         Voir plus
+                         Voir Plus
                     </a>
                </div>
           </div>
@@ -16,7 +16,7 @@
 
      <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
           <div>
-               <img src="https://cdn.pixabay.com/photo/2014/05/03/01/03/laptop-336704_960_720.jpg" width="700" alt="">
+               <img class="limited-w-img" src="https://cdn.pixabay.com/photo/2014/05/03/01/03/laptop-336704_960_720.jpg" alt="">
           </div>
 
           <div class="m-auto sm:m-auto text-left w-4/5 block">
@@ -32,7 +32,7 @@
                </p>
 
                <a href="/blog" class="uppercase bg-blue-500 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl">
-                    Voir plus
+                    Voir Plus
                </a>
           </div>
      </div>
@@ -68,5 +68,26 @@
           <p class="m-auto w-4/5 text-gray-500">
                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore soluta.  Consectetur adipisicing elit. Dolore soluta.
           </p>
+     </div>
+
+     <div class="sm:grid grid-cols-2 w-4/5 m-auto">
+          <div class="flex bg-yellow-700 text-gray-100 pt-10">
+               <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
+                    <span class="uppercase text-xs">
+                         PHP
+                    </span>
+                    <h3 class="text-xl font-bold py-10">
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ea repellendus sit blanditiis et. Esse similique maxime hic vel illo eius repudiandae earum, voluptate autem soluta reprehenderit commodi. Assumenda, illo.
+                    </h3>
+
+                    <a href="" class="uppercase bg-transparent border-2 border-gray-100 text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
+                         Voir Plus
+                    </a>
+               </div>
+          </div>
+
+          <div>
+               <img src="https://cdn.pixabay.com/photo/2014/05/03/01/03/laptop-336704_960_720.jpg" width="700" alt="">
+          </div>
      </div>
 @endsection
