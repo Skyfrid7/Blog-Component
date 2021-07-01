@@ -4,3 +4,4 @@ npm remove laravel-mix
 npm install laravel-mix --save-dev
 npm install cross-env --save-dev
 npm run watch
+composer require cviebrock/eloquent-sluggable
